@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+          crossorigin="anonymous">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://api-maps.yandex.ru/2.1/?&lang=ru_RU" type="text/javascript">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Nunito+Sans" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row ">
+        <div class="menu__mobil d-sm-block d-md-none fixed-top ">
+            <div class="dropdown menu__mob_box">
+                <a class="btn btn-secondary dropdown-toggle  " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    menu
+                </a>
+                <div class="dropdown-menu bg-light" aria-labelledby="dropdownMenuLink">
+                    <a href="./index.html" class="dropdown-item menu__mob">HOME</a>
+                    <a href="./about.html" class="dropdown-item menu__mob">ABOUT</a>
+                    <a href="./process.html" class="dropdown-item menu__mob">PROCESS </a>
+                    <a href="./home.html" class="dropdown-item menu__mob">SERVICES</a>
+                    <a href="./contact.html" class="dropdown-item menu__mob">CONTACT</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-2 logo">
+            <a href="./index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="col-lg-8 col-md-10 menu d-md-block d-none ">
+            <a href="./index.html" class="top-menu">HOME</a>
+            <a href="./about.html" class="top-menu">ABOUT</a>
+            <a href="./process.html" class="top-menu">PROCESS </a>
+            <a href="./home.html" class="top-menu">SERVICES</a>
+            <a href="./contact.html" class="top-menu">CONTACT</a>
+        </div>
+    </div>
+</div>
+<div class="contact__bg">
+    <div class="container">
+    <div class="row">
+            <div class="col-xl-4 col-md-12">
+                <div class="row">
+                 <div class="col-xl-12 col-md-6">
+                     <div class="contact__mob  d-sm-block">
+                         <div class="cont__top_mob">
+                             Contact Info:
+                         </div>
+                         <div class="cont__text_mob">
+                             To give give beginning divide, cattle. Give moving
+                             won't, there the abundantly she'd she'd brought air
+                             upon. Light hath subdue. Life days creature upon
+                             first heaven gathering dry.
+                         </div>
+                     </div>
+                 </div>
+                <div class="cont__text__container col-xl-12 col-md-6 ">
+                    <div class="contact__text__ul">
+                        <div class="contact__adress">Address:</div>  10111 Santa Monica Boulevard
+                    </div>
+                    <div class="contact__text__ul">
+                        <div class="contact__adress">Phone:</div>
+                        Phone:  +44 987 065 908
+                    </div>
+                    <div class="contact__text__ul">
+                        <div class="contact__adress">Email:</div>
+                        Email:  info@Example.com
+                    </div>
+                    <br>
+                    <div class="contact__text__ul">
+                        <div class="contact__adress">Fax:</div>
+                        Fax:  +44 987 065 909
+                    </div>
+                </div></div>
+            </div>
+            <div class="col-xl-8 col-md-12 col-sm-12 col-12">
+                <div class="email">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 em__p">
+                            <div class="email__list">
+                                <input type="title" placeholder="Your Name" class="email__list name__bg">
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="email__list">
+                                <input type="email" placeholder="Your Email" class="email__list email__bg ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <input type="title" class="title" placeholder="Your Title">
+                </div>
+                <div class="comment">
+                    <input type="comment" class="comment" placeholder="Your Comment">
+                </div>
+                <div class="button__form">
+                    send message
+                </div>
+        </div>
+        </div>
+    </div>
+<div class="container">
+    <div id="map" class="maps">
+        <script type="text/javascript">
+
+            ymaps.ready(init);
+            function init(){
+
+                    var myMap = new ymaps.Map("map", {
+                            center: [53.89815602, 27.55847454],
+                            zoom: 15
+                        }, {
+                            searchControlProvider: 'yandex#search'
+                        }),
+
+                        // Создаем геообъект с типом геометрии "Точка".
+                        myGeoObject = new ymaps.GeoObject({
+                            // Описание геометрии.
+                            geometry: {
+                                type: "Point",
+                                coordinates: [53.89815602, 27.55847454]
+                            },
+                            // Свойства.
+                            properties: {
+                                // Контент метки.
+                                iconContent: 'Компьютерная академия ШАГ',
+                                hintContent: 'вход с торца:)'
+                            }
+                        }, {
+                            // Опции.
+                            // Иконка метки будет растягиваться под размер ее содержимого.
+                            preset: 'islands#blackStretchyIcon',
+                            // Метку можно перемещать.
+                            draggable: true
+                        });
+                myMap.geoObjects
+            .add(myGeoObject)
+                    .add(myPieChart)
+                    .add(new ymaps.Placemark([53.89815602, 27.55847454], {
+                        balloonContent: 'цвет <strong>воды пляжа бонди</strong>'
+                    }, {
+                        preset: 'islands#icon',
+                        iconColor: '#0095b6'
+                    }))
+
+            }
+        </script>
+    </div>
+</div>
+
+</div>
+<div class="footer">
+    <div class="row">
+        <div class="col-md-1 d-none d-md-block">
+        </div>
+        <div class="col-md-3 col-6">
+            <div class="foot__left__top">
+                Piroll Design, Inc.
+            </div>
+            <div class="foot__left__but">
+                © 2017 Piroll. All rights reserved.
+                Designed by robirurk.
+            </div>
+        </div>
+        <div class="col-md-2 col-6 cont__foot">
+            <p class="cont__foot__decor">
+                hello@pirolltheme.com
+            </p>
+            <p class="cont__foot__decor">
+                +44 987 065 908
+            </p>
+        </div>
+        <div class="col-md-1 d-none d-md-block">
+        </div>
+        <div class="col-md-1 col-4">
+            <ul class="ul__decor">
+                <li>Project</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Career</li>
+            </ul>
+        </div>
+        <div class="col-md-1 col-4">
+            <ul class="ul__decor">
+                <li>News</li>
+                <li>Events</li>
+                <li>Contact</li>
+                <li>Legals</li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-4">
+            <ul class="ul__decor">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Dibble</li>
+            </ul>
+
+        </div>
+
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

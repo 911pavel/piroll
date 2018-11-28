@@ -1,0 +1,1029 @@
+
+.row{
+    margin:0 !important;
+    padding:0 !important;
+}
+.col{
+    margin:0 !important;
+    padding:0 !important;
+}
+.header{
+    background: url(img/head.jpg)  no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+    head:670px;
+
+}
+
+
+
+.menu__mob{
+    height: 59px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    z-index: 1010;
+}
+
+
+.top-menu{
+    width: 616px;
+    height: 9px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-right: 30px;
+}
+
+.menu{
+    height: 100px;
+    line-height: 100px;
+    text-align: right;
+}
+.logo{
+    height: 100px;
+    line-height: 100px;
+}
+.top-menu:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #10c9c3;
+    letter-spacing: 1.2px;
+
+}
+.cont-top{
+     height: 570px;
+
+    margin: auto 0;
+}
+
+.top__head__dec{
+   ;
+    height: 38px;
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.38px;
+    margin-top: 150px;
+
+
+}
+.center__head__dec{
+
+    height: 72px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.09px;
+    margin-top: 80px;
+}
+.head__button{
+    text-align: center;
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    background-color: #10c9c3;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.about__top{
+
+    height: 22px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 0.3px;
+}
+.about__text{
+    height: 62px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+    letter-spacing: 0.08px;
+}
+.about__img{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+.skills__graph{
+    background-color: #f8f9f9;
+
+}
+.skills__img{
+    background-image: url("img/skill.jpg");
+    background-size: 100%;
+    height: 570px;
+    min-height: 570px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.skills__top{
+
+   border-bottom: 5px solid #d8d8d8;
+    position: relative;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "U, I/UX De" */
+    letter-spacing: 1.2px;
+    margin-bottom: 30px;
+
+
+
+
+}
+.skills__text{
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 84px;
+    /* Text style for "P, rofessi" */
+    letter-spacing: 0.3px;
+    margin-top: 160px;
+}
+.skills__absolute{
+    border-bottom: 5px solid #10c9c3;
+    width: 75%;
+    position: absolute;
+    margin-left: -15px;
+}
+.skills__absolute__center{
+    border-bottom: 5px solid #10c9c3;
+    width: 90%;
+    position: absolute;
+    margin-left: -15px;
+}
+.skills__absolute__byttom{
+    border-bottom: 5px solid #10c9c3;
+    width: 65%;
+    position: absolute;
+    margin-left: -15px;
+
+}
+.icon{
+    height: 270px;
+    width: 100%;
+    background-color: #10c9c3;
+
+}
+.text__icon{
+    display: table;
+    width: 100%;
+    height: 7em; /* работает также как min-height, то есть будет растягиваться пока не поместится всё содержимое */
+    text-align: center;
+    margin-top: 135px;
+
+}
+.text__icon__decor{
+
+    height: 13px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "5, 48" */
+    letter-spacing: 0.54px;
+    margin-top: 125px;
+}
+.portf__row{
+    max-height: 330px;
+}
+.portf__img{
+    width: 100%;
+    height: 330px;
+    max-height: 330px;
+    margin-right: 0 !important;
+}
+.img__link:before{
+ content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(71, 61, 61, 0.5) ;
+    opacity: 0;
+
+}
+.img__link:after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    bottom: 0;
+    background: url(img/ok.png) no-repeat ;
+    opacity: 0;
+
+}
+.img__link:hover:before,
+.img__link:hover:after { opacity: 1; }
+
+.portf__cont__img{
+    margin:0 !important;
+    padding:0 !important;
+    z-index: 5;
+
+}
+.portf__cont__img:hover{
+    background-color: black;
+    z-index: 10;
+
+}
+
+.load{
+    background: #f5f5f5;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    color: #8e8e8e;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.work{
+    text-align: center;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-top: 100px;
+}
+.work__text{
+
+    margin-bottom: 100px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.crumbs{
+    background-color: #f5f5f5;
+    height: 535px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.crumbs__decor{
+    text-align: center;
+    margin-top: 100px ;
+
+
+
+}
+.crumbs__but__decor{
+    text-align: center;
+    margin-top: 60px ;
+
+}
+.crumbs__top__text{
+    margin-top: 10px;
+    color: #191919;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.crumbs__bott__text{
+
+    width: 210px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px auto;
+}
+.img__crumbs{
+    height: 40px;
+}
+
+.slider{
+    height: 500px;
+
+}
+.slider__img{
+
+    height: 500px;
+
+}
+.slide__text{
+    width: 807px;
+    height: 100px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0.3px;
+
+    margin: 50px auto;
+}
+.slid__text__bot{
+    text-align: center;
+    height: 9px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    /* Text style for "M, ichael" */
+    letter-spacing: 1.2px;
+    margin: 50px auto;
+    margin-bottom: 200px;
+}
+
+.partn{
+
+    margin: 67px auto;
+
+}
+.partn__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.form{
+    height: 751px;
+    width: 100%;
+    background:#f5f5f5 ;
+}
+.form__top{
+
+    text-align: center;
+    height: 29px;
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    /* Text style for "N, eed a P" */
+    letter-spacing: 0.3px;
+    margin: 0 auto;
+    margin-top: 101px;
+}
+.form__text{
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    /* Text style for "Let us kno" */
+    letter-spacing: 0.08px;
+    width: 537px;
+    text-align: center;
+    margin: 30px auto;
+
+}
+.title{
+    width: 670px;
+    height: 48px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.comment{
+    width: 670px;
+    height: 170px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+
+
+}
+
+.email__top{
+    width: 100%;
+}
+.email{
+    width: 670px;
+    margin: 30px auto;
+
+}
+.em__p{
+margin:0 !important;
+padding:0 !important;
+
+}
+.email__list{
+    width: 320px;
+    height: 48px;
+    background-color: #ffffff;
+
+}
+.button__form{
+    width: 180px;
+    height: 54px;
+    background-color: #10c9c3;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    line-height: 54px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer{
+
+    height: 284px;
+    background: #141414;
+
+}
+.foot__left__top{
+
+    height: 18px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 72px;
+    /* Text style for "Piroll Des" */
+    letter-spacing: 0.18px;
+    margin-top: 100px;
+}
+.foot__left__but{
+    width: auto;
+    height: 39px;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "© 2017 Pir" */
+    letter-spacing: 0.07px;
+    margin-top: 50px;
+}
+.cont__foot{
+    margin-top: 140px;
+}
+.cont__foot__decor{
+    width: 153px;
+    height: 35px;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+   margin-top: -20px;
+}
+.ul__decor{
+    margin-top: 120px;
+    list-style-type: none;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    /* Text style for "Projects ," */
+    letter-spacing: 0.07px;
+}
+
+
+/*styles from home.html*/
+
+.cont__home{
+    margin-top: -50px;
+    text-align: center;
+     height: 590px;
+    margin-bottom: -150px;
+}
+
+
+/*styles from about.html*/
+
+.cont__banner{
+    background-image: url("img/ban__about.jpg");
+    background-size: 100%;
+    height: 350px;
+
+}
+.top__about__cont {
+
+    height: 22px;
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 84px;
+    /* Text style for "A, bout me" */
+    letter-spacing: 0.3px;
+    margin-top: 140px;
+}
+
+.text__about__cont{
+    width: 454px;
+    height: 134px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    margin-top: 70px;
+}
+.img__about__cont{
+    margin-top: 37px;
+}
+
+/* styles for contact*/
+.but__left{
+   margin-left: 40px;
+}
+.button__contact{
+    margin-right: 0;
+
+}
+.contact__top{
+    height: 22px;
+    margin-top: 30px;
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+}
+.contact__text{
+    width: 300px;
+    height: 86px;
+    color: #787878;
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08px;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+.contact__text__ul{
+    font-family: "Nunito Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.08px;
+    display: inline-flex;
+}
+.cont__text__container{
+    margin-top: 100px;
+}
+.contact__adress{
+    font-family: "Nunito Sans - Bold";
+    font-weight: 700;
+    letter-spacing: 0.08px;
+    margin-right: 10px;
+}
+.maps{
+    width: 100%;
+    height: 570px;
+    margin-bottom: 100px;
+}
+
+
+
+
+/*styles from process.html*/
+
+.img__slider__proc{
+    height: 570px;
+    width: 100%;
+    margin-right:0;
+
+}
+.emma{
+    margin-top: 200px;
+    width: 250px;
+}
+.control{
+    height: 100px;
+
+}
+.a__previous{
+    color: #1d1d1d;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    display: inline-flex;
+    margin: auto 60px;
+}
+.slider__proc{
+    height: 570px;
+
+}
+.left__previous{
+   margin: auto 20px;
+}
+.ul__decor__mobil{
+    display: inline-flex;
+}
+.cont__top_mob{
+
+    color: #171717;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 84px;
+    letter-spacing: 0.3px;
+    margin-top: 0px;
+}
+.contact__bg{
+    background: #f5f5f5;
+    padding-top: 0;
+    height: 100%;
+    width: auto;
+
+}
+
+
+@media (max-width: 1200px) {
+    .text__icon__decor {
+
+        font-size: 15px;
+
+        margin-top: 25px;
+
+    }
+
+    .text__icon {
+        margin-top: 35px;
+    }
+
+    .portf__row {
+        max-height: 250px;
+    }
+
+    .portf__img {
+        max-height: 250px;
+    }
+
+    .text__about__cont {
+        width: 300px;
+        margin-bottom: 100px;
+
+    }
+
+    .top__about__cont {
+        margin-top: 50px;
+    }
+    .contact__top{
+        margin-left: -30px;
+        margin-top: -70px;
+    }
+    .contact__text{
+        margin-left: -30px;
+
+    }
+    .cont__text__container{
+        margin-top: 50px;
+
+     }
+    .cont__banner{
+        height: 350px;
+    }
+    .emma{
+        margin-left: -30px;
+    }
+    .but__left {
+        margin-left: 0;
+    }
+    .email{
+        margin-top: 10px;
+    }
+    .cont__top_mob{
+        color: #171717;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 84px;
+        letter-spacing: 0.3px;
+        margin-top: 0px;
+    }
+    .cont__text_mob{
+        margin-top: 30px;
+        color: #787878;
+        font-family: "Nunito Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.08px;
+
+    }
+@media (max-width: 992px){
+    .cont-top{
+        text-align: center;
+        height: 450px;
+    }
+    .cont__banner{
+        height: 200px;
+    }
+    .head__button{
+        margin:20px auto ;
+    }
+    .center__head__dec{
+        margin-top: 30px;
+    }
+    .about__top{
+        margin-top: 50px;
+    }
+
+    .about__img {
+        margin: 50px auto;
+        margin-top: 100px;
+    }
+    .skills__img{
+        height: 470px;
+        min-height: 470px;
+    }
+    .skills__text{
+        margin-top: 60px;
+    }
+
+    .icon{
+        display: none;
+    }
+    .portf__row {
+        max-height: 200px;
+    }
+
+    .portf__img {
+        max-height: 200px;
+    }
+    .crumbs__bott__text{
+
+        width: 150px;
+        margin: 0px auto;
+    }
+    .crumbs__but__decor{
+        text-align: center;
+        margin-top: 30px ;
+    }
+    .slide__text {
+        width: auto;
+    }
+    .slid__text__bot{
+        margin-top: 100px;
+    }
+    .top__head__dec {
+        margin-top: 70px;
+    }
+    .contact__mobil{
+        position: absolute;
+        z-index: 1010;
+    }
+    .contact__slid{
+        position: absolute;
+        z-index: 1000;
+    }
+    .emma{
+        margin-top: 70%;
+        margin-left: 10%;
+        color:white;
+    }
+    .contact__text{
+        margin-top: 15%;
+        margin-left: 10%;
+        color:white;
+    }
+    .contact__top{
+        margin-top: 5%;
+        margin-left: 10%;
+        color:white;
+    }
+    .cont__top_mob{
+        color: #171717;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 84px;
+        letter-spacing: 0.3px;
+        margin-top: 0;
+    }
+    .cont__text_mob{
+        margin-top: 30px;
+        color: #787878;
+        font-family: "Nunito Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.08px;
+
+
+
+
+
+
+    }
+@media (max-width: 768px){
+    .logo{
+       display: none;
+    }
+    .crumbs__decor {
+        text-align: center;
+        margin-top: 100px;
+        margin-top: 10px;
+    }
+    .crumbs {
+
+        height: 730px;
+    }
+    .portf__img {
+         max-height: 150px;
+     }
+    .partn {
+        margin: 10px auto;
+    }
+    .title {
+        width: 335px;}
+    .comment{
+        width: 335px;
+    }
+    .email__list{
+        width: 335px;
+        background: none;
+        margin: 10px 0;
+    }
+    .email{
+
+        width: 335px;
+
+
+    }
+    .name__bg{
+        background: white;
+    }
+    .email__bg{
+        background: white;
+        margin-left: -15px;
+    }
+
+    .ul__decor{
+        margin-top: 40px;
+    }
+    .slide__text {
+        width: auto;
+    }
+    .slid__text__bot{
+        margin-top: 150px;
+    }
+    .ul__decor{
+        width: 100%;
+    }
+    .cont__foot__decor {
+
+        margin-top: -80px;}
+    .top__head__dec {
+        height: auto;}
+
+    .foot__left__top {
+
+        margin-top: 0;}
+    .top__about__cont{
+    text-align: center;
+    }
+    .text__about__cont{
+        text-align: center;
+        margin: 90px auto
+    }
+    .img__about__cont{
+        margin: 30px auto;
+        width: 225px;
+    }
+
+    .cont__top_mob{
+        color: #171717;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 84px;
+        letter-spacing: 0.3px;
+        margin-top: 50px;
+    }
+    .cont__text_mob{
+        margin-top: 30px;
+        color: #787878;
+        font-family: "Nunito Sans";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.08px;
+
+    }
+
+}
+
+
+
+
+@media (max-width:576px) {
+    .form__text {
+        width: auto;
+    }
+
+    .form {
+        height: 800px;
+
+    }
+
+    .head__button {
+        margin: 90px auto;
+    }
+
+    .center__head__dec {
+        margin-top: 80px;
+    }
+
+    .skills__img {
+        height: 270px;
+        min-height: 270px;
+    }
+
+    .portf__img {
+        max-height: 120px;
+    }
+
+    .crumbs {
+        height: 1450px;
+    }
+
+    .slide__text {
+        position: absolute;
+        margin-top: -400px;
+        width: auto;
+
+    }
+
+    .slid__text__bot {
+        margin-top: -52px;
+        height: 50px;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    .top__head__dec {
+        margin-top: 100px;
+    }
+
+    .center__head__dec {
+        margin-top: 20px;
+    }
+
+    .cont__banner {
+        background: #1d1d1d;
+    }
+    .cont__home{
+        margin-top: -50px;
+        text-align: center;
+        height: 590px;
+        margin-bottom: -150px;
+    }
+}
+}
+}
+
+
+
